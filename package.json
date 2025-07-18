@@ -1,14 +1,12 @@
 {
-    "name": "@fjell/lib",
-    "version": "4.4.10",
+    "name": "@fjell/registry",
+    "version": "4.4.0",
     "keywords": [
-        "library",
-        "persistence",
-        "database",
+        "registry",
         "fjell"
     ],
     "license": "Apache-2.0",
-    "description": "Server-side Library for Fjell",
+    "description": "Common Registry for Fjell",
     "engines": {
         "node": ">=21"
     },
@@ -60,6 +58,6 @@
     "packageManager": "pnpm@10.13.1",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/getfjell/lib.git"
+        "url": "git+https://github.com/getfjell/registry.git"
     }
 }
