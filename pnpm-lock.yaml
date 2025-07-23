@@ -11,9 +11,6 @@ importers:
       '@fjell/core':
         specifier: ^4.4.13
         version: 4.4.13
-      '@fjell/eslint-config':
-        specifier: link:../fjell-eslint-config
-        version: link:../fjell-eslint-config
       '@fjell/logging':
         specifier: ^4.4.13
         version: 4.4.13
@@ -27,6 +24,9 @@ importers:
       '@eslint/js':
         specifier: ^9.31.0
         version: 9.31.0
+      '@fjell/eslint-config':
+        specifier: ^1.0.5
+        version: 1.0.5(eslint@9.31.0)(typescript@5.8.3)
       '@swc/core':
         specifier: ^1.13.2
         version: 1.13.2
@@ -471,6 +471,12 @@ packages:
     peerDependencies:
       react: ^19.1.0
       react-dom: ^19.1.0
+
+  '@fjell/eslint-config@1.0.5':
+    resolution: {integrity: sha512-0RzrW3iD4Sv4wlYXHEYo1+2xYRu9QLZ90uypRjTdrRwmwJwl9wY3Qa9nUYnBu963+Sqlb8ZJewstzC8KRPRycA==}
+    peerDependencies:
+      eslint: ^9.0.0
+      typescript: ^5.0.0
 
   '@fjell/logging@4.4.13':
     resolution: {integrity: sha512-0pZHeDT2dZAA0HH+cwu6ThlklJy4I93+Ynx2k1JA0/ebCZRxymJKacRhMmhWZyexH5+/o5yEf6p4fYhrzpkbKQ==}
@@ -3037,6 +3043,17 @@ snapshots:
       remark-gfm: 4.0.1
     transitivePeerDependencies:
       - '@types/react'
+      - supports-color
+
+  '@fjell/eslint-config@1.0.5(eslint@9.31.0)(typescript@5.8.3)':
+    dependencies:
+      '@eslint/eslintrc': 3.3.1
+      '@eslint/js': 9.31.0
+      '@typescript-eslint/eslint-plugin': 8.38.0(@typescript-eslint/parser@8.38.0(eslint@9.31.0)(typescript@5.8.3))(eslint@9.31.0)(typescript@5.8.3)
+      '@typescript-eslint/parser': 8.38.0(eslint@9.31.0)(typescript@5.8.3)
+      eslint: 9.31.0
+      typescript: 5.8.3
+    transitivePeerDependencies:
       - supports-color
 
   '@fjell/logging@4.4.13': {}

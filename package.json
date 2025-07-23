@@ -32,13 +32,13 @@
   },
   "dependencies": {
     "@fjell/core": "^4.4.13",
-    "@fjell/eslint-config": "link:../fjell-eslint-config",
     "@fjell/logging": "^4.4.13",
     "deepmerge": "^4.3.1"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3.3.1",
     "@eslint/js": "^9.31.0",
+    "@fjell/eslint-config": "^1.0.5",
     "@swc/core": "^1.13.2",
     "@tsconfig/recommended": "^1.0.10",
     "@types/multer": "^2.0.0",
