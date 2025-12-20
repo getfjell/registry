@@ -1,7 +1,8 @@
 /* eslint-disable indent */
 import LibLogger from './logger';
 import { Instance, isInstance } from './Instance';
-import { AllItemTypeArrays, Coordinate, createCoordinate } from '@fjell/core';
+import { Coordinate, createCoordinate } from '@fjell/core';
+import { AllItemTypeArrays } from '@fjell/types';
 import {
   InstanceFactory,
   InstanceTree,

@@ -1,4 +1,4 @@
-import { AllItemTypeArrays } from '@fjell/core';
+import { AllItemTypeArrays } from '@fjell/types';
 
 /**
  * Represents a service client (another service making the request)
